@@ -17,3 +17,13 @@ if a % 2 == 0:
     print(a, "is an even number")
 if a % 2 != 0:
     print(a, "is an odd number")
+
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+if a > b:
+    print(a, "is greater than", b) 
+elif a < b:
+    print(b, "is greater than", a)
+else:
+    print(a, "is equal to", b)
+print("The sum of", a, "and", b, "is:", a + b)
