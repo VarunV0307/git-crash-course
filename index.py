@@ -50,3 +50,18 @@ print("a > 0 or b > 0 =", a > 0 or b > 0)
 # NOT operator
 print("\nNOT Operator:")
 print("not(a > b) =", not(a > b))
+<<<<<<< Updated upstream
+=======
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("\nArithmetic Operations:")
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
+print("Division =", a / b)
+print("Floor Division =", a // b)
+print("Modulus =", a % b)
+print("Exponentiation =", a ** b)
+>>>>>>> Stashed changes
