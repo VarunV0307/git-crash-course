@@ -42,3 +42,11 @@ b = int(input("Enter second number: "))
 # AND operator
 print("\nAND Operator:")
 print("a > 0 and b > 0 =", a > 0 and b > 0)
+
+# OR operator
+print("\nOR Operator:")
+print("a > 0 or b > 0 =", a > 0 or b > 0)
+
+# NOT operator
+print("\nNOT Operator:")
+print("not(a > b) =", not(a > b))
