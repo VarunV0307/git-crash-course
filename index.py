@@ -34,3 +34,11 @@ print("Hello", name, "!")
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter another number: ")) 
 print("The sum of", num1, "and", num2, "is:", num1 + num2)
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# AND operator
+print("\nAND Operator:")
+print("a > 0 and b > 0 =", a > 0 and b > 0)
