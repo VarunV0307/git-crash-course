@@ -13,3 +13,7 @@ if a == b:
     print(a, "is equal to", b)
 else:
     print(a, "is not equal to", b)
+if a % 2 == 0:
+    print(a, "is an even number")
+if a % 2 != 0:
+    print(a, "is an odd number")
