@@ -1,22 +1,22 @@
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter another number: "))
-sum = a + b 
-print("The sum of", a, "and", b, "is:", sum)
-print("The product of", a, "and", b, "is:", a * b)
-print("The difference of", a, "and", b, "is:", a - b)
+sum = num1 + num2 
+print("The sum of", num1, "and", num2, "is:", sum)
+print("The product of", num1, "and", num2, "is:", num1 * num2)
+print("The difference of", num1, "and", num2, "is:", num1 - num2)
 
-if a > b:
-    print(a, "is greater than", b)
+if num1 > num2:
+    print(num1, "is greater than", num2)
 else:
-    print(b, "is greater than", a)
-if a == b:
-    print(a, "is equal to", b)
+    print(num2, "is greater than", num1)
+if num1 == num2:
+    print(num1, "is equal to", num2)
 else:
-    print(a, "is not equal to", b)
-if a % 2 == 0:
-    print(a, "is an even number")
-if a % 2 != 0:
-    print(a, "is an odd number")
+    print(num1, "is not equal to", num2)
+if num1 % 2 == 0:
+    print(num1, "is an even number")
+if num1 % 2 != 0:
+    print(num1, "is an odd number")
 
 a = int(input("Enter a number: "))
 b = int(input("Enter another number: "))
