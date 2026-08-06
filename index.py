@@ -18,15 +18,15 @@ if num1 % 2 == 0:
 if num1 % 2 != 0:
     print(num1, "is an odd number")
 
-a = int(input("Enter a number: "))
-b = int(input("Enter another number: "))
-if a > b:
-    print(a, "is greater than", b) 
-elif a < b:
-    print(b, "is greater than", a)
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+if num1 > num2:
+    print(num1, "is greater than", num2)
+elif num1 < num2:
+    print(num2, "is greater than", num1)
 else:
-    print(a, "is equal to", b)
-print("The sum of", a, "and", b, "is:", a + b)
+    print(num1, "is equal to", num2)
+print("The sum of", num1, "and", num2, "is:", num1 + num2)
 
 name = input("Enter your name: ")
 print("Hello", name, "!")
